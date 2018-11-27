@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LifeApplication {
 
     public static void main(String[] args) {
+        InitVirtualWorld initVirtualWorld=new InitVirtualWorld();
+        initVirtualWorld.unkown();
         SpringApplication.run(LifeApplication.class, args);
     }
 }
