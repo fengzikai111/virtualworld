@@ -1,4 +1,4 @@
 package com.virtualworld.core.lifeobject;
 
-public class Brow {
+public class Brow implements Organ {
 }

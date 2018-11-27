@@ -4,5 +4,5 @@ import com.virtualworld.core.lifeobject.Nose;
 import com.virtualworld.core.lifeobject.Organ;
 
 public class PersonNose extends Nose  implements Organ {
-
+    PersonNoseAction personNoseAction;
 }

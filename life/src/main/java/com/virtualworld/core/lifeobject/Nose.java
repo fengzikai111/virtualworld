@@ -1,5 +1,5 @@
 package com.virtualworld.core.lifeobject;
 
-public class Nose
+public class Nose implements Organ
 {
 }
