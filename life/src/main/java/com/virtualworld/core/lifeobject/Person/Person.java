@@ -6,6 +6,12 @@ import lombok.Data;
 
 @Data
 public abstract class Person {
+    static long biologicalclock=0l;
+    public void biologicalclock(){
+        this.biologicalclock=this.biologicalclock+1l;
+        System.out.print(this.biologicalclock);
+    }
+
     PersonBody body;
     PersonSpirit spirit;
 

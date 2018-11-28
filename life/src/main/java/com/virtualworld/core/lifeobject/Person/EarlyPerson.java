@@ -8,7 +8,7 @@ public class EarlyPerson extends Person {
 
     @Override
    public  void bear(Person person) {
-       person.getBody().getPersonHeart().heartbeat();
+       person.getBody().getPersonHeart().heartbeat(person).start();
     }
 
     @Override
