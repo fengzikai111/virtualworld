@@ -7,6 +7,8 @@ public class PersonHeart extends Thread  implements Heart {
 
     public PersonHeart heartbeat(Person person){
         this.person=person;
+        person.getBody().getPersonEar().start();
+        person.getBody().getPersonEye().start();
         return this;
     }
     public void run() {

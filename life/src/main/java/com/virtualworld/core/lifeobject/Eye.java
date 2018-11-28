@@ -1,4 +1,4 @@
 package com.virtualworld.core.lifeobject;
 
-public class Eye implements Organ {
+public interface Eye extends Organ {
 }

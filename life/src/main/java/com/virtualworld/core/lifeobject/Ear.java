@@ -1,4 +1,4 @@
 package com.virtualworld.core.lifeobject;
 
-public class Ear implements Organ {
+public interface Ear extends Organ {
 }
