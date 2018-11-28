@@ -9,6 +9,8 @@ public abstract class Person {
     PersonBody body;
     PersonSpirit spirit;
 
+    abstract void bear(Person person);
+
     abstract void hear();
 
     abstract void see();

@@ -5,9 +5,10 @@ import com.virtualworld.core.lifeobject.Person.Person;
 
 public class InitVirtualWorld {
     public    void unkown(){
-        int i=5;
+        int i=1;
         while(true){
-            Person person= new EarlyPerson();
+            EarlyPerson person= new EarlyPerson();
+            person.bear(person);
             System.out.println("# init  "+ i);
             i--;
             if(i<=0) {
