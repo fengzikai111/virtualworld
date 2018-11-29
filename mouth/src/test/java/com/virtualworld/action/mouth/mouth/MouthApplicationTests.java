@@ -1,4 +1,4 @@
-package com.virtualworld.atction.mouth.mouth;
+package com.virtualworld.action.mouth.mouth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
