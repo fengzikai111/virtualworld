@@ -9,3 +9,6 @@ there will be Some people in begining.
 
 first role is the person,who can see,hear even heartbeat.
 
+what peason should have. arm,leg,mouth,hand etc. peason still have vision,touch,auditon,smell,etc.
+
+
